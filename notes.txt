@@ -1,0 +1,3 @@
+bleu foncé : #345EA8
+bleu claire: #3B8AC3
+couleur claire : #EEDBCB
