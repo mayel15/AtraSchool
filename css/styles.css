@@ -32,7 +32,44 @@ h1{
   font-size: 1.25rem;
   color: #345EA8;
 }
+/* Gerer les dropdown */
+.dropbtn {
+  cursor: pointer;
+}
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: ;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:;
+  padding: 12px 16px;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: ;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: ;
+}
 
 /* Home presentation */
 #home-presentation {
@@ -139,6 +176,23 @@ h1 {
   margin: 5% 0;
 }
 
+/* sign-up choice */
+.choice-bloc {
+  margin: 3% 1%;
+}
+
+.choice {
+  border-bottom: solid #345EA8 2px;
+  text-align: center;
+  padding: 2%;
+}
+
+.sign-up-choice {
+  border: solid #345EA8 2px ;
+  border-radius: 10px 10px 0 0;
+  
+}
+
 /* cours */
 #ressources {
   padding: 5% 15%;
@@ -166,10 +220,7 @@ h1 {
   padding: 5% 15%;
 }
 
-.group-card-matieres {
 
-
-}
 .card-matieres {
   margin: 3% 3%;
   background-color: #EEDBCB;

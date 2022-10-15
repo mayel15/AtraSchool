@@ -43,7 +43,7 @@
               <a class="nav-link" href="exercices.html">Exercices</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn-sign-up" href="sign-up-eleve.html"><i class="fa-solid fa-user-plus"></i></a>
+              <a class="nav-link btn-sign-up" href="sign-up.html"><i class="fa-solid fa-user-plus"></i></a>
             </li>
             <li class="nav-item btn-sign-in">
               <a class="nav-link" href="sign-in.html"><i class="fa-solid fa-right-to-bracket"></i></a>
@@ -54,33 +54,55 @@
     </div>
   </section>
 
-  <!-- sign-in -->
-  <section id="sign-in">
-    <h2 style="margin-bottom: 5%;"><i class="fa-solid fa-right-to-bracket"></i> Connexion</h2>
+  <!-- sign-up -->
+  <section id="sign-up">
+    <h2 style="margin-bottom: 5%;"><i class="fa-solid fa-user-plus"></i> Inscription</h2>
+    <div class="row choice-bloc">
+      <h4 class="col-lg-6 choice"> <a href="sign-up-eleve.html">Eleve</a></h4>
+      <h4 class="col-lg-6 choice sign-up-choice"><a href="sign-up-prof.html">Professeur</a></h4>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Nom">
+      <label for="floatingInput">Nom</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Prénom">
+      <label for="floatingInput">Prénom</label>
+    </div>
+
+    <div style="margin-bottom: 5%;" class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        Homme
+      </label>
+    </div>
+    <div style="margin-bottom: 5%;" class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <label class="form-check-label" for="flexRadioDefault2">
+        Femme
+      </label>
+    </div>
     <div class="form-floating mb-3">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Adresse e-mail</label>
     </div>
-    <div class="form-floating">
+    <div style="margin-bottom: 4%;" class="form-floating">
       <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Mot de passe</label>
     </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Confirmer mot de passe</label>
+    </div>
+
     <div class="rest-connect">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
         <label class="form-check-label" for="flexCheckDefault">
-          Se souvenir de moi
+          Accepter les <a href="">conditions d'utilisation</a>
         </label>
       </div>
-      <button type="button" class="btn btn-primary btn-connect">Se connecter</button>
-      <div class="row">
-        <div class="col-lg-6">
-          <p>Nouveau ? <a href="sign-up.html">S'inscrire</a></p>
-        </div>
-        <div class="col-lg-6">
-          <a href="">Mot de passe oublié ?</a>
-        </div>
-      </div>
+      <button type="button" class="btn btn-primary btn-connect">S'inscrire</button>
     </div>
   </section>
 
